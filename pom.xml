@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.azhagu</groupId>
+    <groupId>io.github.azhagu</groupId>
     <artifactId>proximityhash-java</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
@@ -20,9 +20,28 @@
         </plugins>
     </build>
     <packaging>jar</packaging>
-    <name>proximityHash</name>
-    <url>http://maven.apache.org</url>
-
+    <name>proximityHash for Geohash Generate </name>
+    <description> This is sample library for geohash generation</description>
+    <url>http://github.com/azhagu-dev/proximityhash-javas</url>
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+    <scm>
+        <connection>scm:git:git://github.com/azhagu-dev/proximityhash-javas.git</connection>
+        <developerConnection>scm:git:ssh://github.com:azhagu-dev/proximityhash-javas.git</developerConnection>
+        <url>http://github.com/azhagu-dev/proximityhash-javas</url>
+    </scm>
+    <developers>
+        <developer>
+            <name>azhagu-dev</name>
+            <email>alagappan.plr@gamil.com</email>
+            <organization>com.github.azhagu-dev</organization>
+            <organizationUrl>http://github.com/azhagu-dev/</organizationUrl>
+        </developer>
+    </developers>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
